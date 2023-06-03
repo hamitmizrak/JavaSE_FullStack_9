@@ -1,6 +1,7 @@
 package com.hamitmizrak.lesson2;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class _13_Loop_Examples {
 
@@ -12,7 +13,7 @@ public class _13_Loop_Examples {
         // Bu sayıları toplayalım
         // Bu sayılar içinde tek sayı toplamı
         // Bu sayılar içinde tek sayı adeti
-        int oddCounter=0,oddSum=0;
+        /*int oddCounter=0,oddSum=0;
         String oddPiece="";
         int sum=0;
         for (int i = 0; i <=4 ; i++) {
@@ -24,15 +25,13 @@ public class _13_Loop_Examples {
                 //oddPiece=oddPiece.concat(String.valueOf(temp)+" ");
                 //oddPiece=oddPiece.concat(Integer.toString(temp)+" ");
                 oddPiece=oddPiece.concat(temp+" ");
-            }else{
-
-            }
+            }else{}
             sum+=temp;
         } //end for
         System.out.println("Tek sayı elemanları: "+oddPiece);
         System.out.println("Genel Toplamları: "+sum);
         System.out.println("Tek sayılar adedi: "+oddCounter);
-        System.out.println("Tek sayılar toplamı: "+oddSum);
+        System.out.println("Tek sayılar toplamı: "+oddSum);*/
 
         // Örnek: AKLINDA BİR SAYI TUT
         // Bir sayi söylüyoruz ve çıkan sonucu tahmin ediyoruz.
@@ -66,6 +65,17 @@ public class _13_Loop_Examples {
         // kullanıcı tarafından girilen bir kelimeyi tersten yazdıran Algoritma ?
         // yazdığınız kelime kaç harfli ?
         // Hamit ==> timaH
+
+        String fullName="", reverseFullName="";
+        Scanner klavye=new Scanner(System.in);
+        System.out.println("\nLütfen adınızı giriniz");
+        fullName=klavye.nextLine();
+        for (int i = fullName.length()-1; i >=0 ; i--) {
+            //reverseFullName= reverseFullName+ fullName.charAt(i);
+            reverseFullName+= fullName.charAt(i);
+        }
+        System.out.println(fullName);
+        System.out.println(reverseFullName);
 
         // Örnek : Password Masking
         // kullanıcı tarafından girilen bir parola için ilk ve son harfi haricinde *
