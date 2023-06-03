@@ -8,5 +8,13 @@ public class PsvmTutorials {
     public static void main(String[] args) {
         // sout =>TAB
         System.out.println("Hello World44");
+        // Neden Java Öğreniyoruz ?
+        // compiler  // byte codes
+        // interpreter
+        // J.I.T nedir ?
+        // API nedir ?
+        // API
+        // JRE
+        // JDK
     }
 }
