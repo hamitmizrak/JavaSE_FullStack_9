@@ -21,7 +21,7 @@ public class _13_Loop_Examples {
         // adım4: bu sayiyi ilk sayidan çıkarın
         // Formulu: int sonuc = (((sayi * 2) + 22) / 2) - sayi;
 
-        // Örnek : KLASIK VIZE/FINAL ÖRNEĞİ
+        // Örnek : KLASIK VIZE/FINAL ÖRNEGİ
         // Vize Final Ödevi
         // kullanıcıdan alınan vize ve final notuna göre geçme(ortalama) Algoritması
         // eğer kullanıcı vize veya final 0(sıfır) bir değer girerse sistemden atsın

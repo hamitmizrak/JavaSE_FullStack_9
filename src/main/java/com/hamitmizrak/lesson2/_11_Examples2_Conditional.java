@@ -1,5 +1,7 @@
 package com.hamitmizrak.lesson2;
 
+import java.util.Scanner;
+
 public class _11_Examples2_Conditional {
 
     public static void main(String[] args) {
@@ -20,6 +22,18 @@ public class _11_Examples2_Conditional {
 
         // ÖDEV-3
         // Klavyeden girilen karakter harf mi , sayı mı , özel simge mi ?
+        while(true){
+            Scanner klavye=new Scanner(System.in);
+            System.out.println("\nLütfen bir karakter giriniz");
+            char data=klavye.nextLine().charAt(0);
+            if(Character.isLetter(data))
+                System.out.println(data+ " Bu harftir");
+            else if(Character.isDigit(data))
+                System.out.println(data+ " Bu sayıdır");
+            else
+                System.out.println(data+ " Bu özel simgedir");
+        }
+
 
     }
 }
