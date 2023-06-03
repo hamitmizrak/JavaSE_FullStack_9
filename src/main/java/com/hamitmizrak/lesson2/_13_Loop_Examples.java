@@ -1,14 +1,38 @@
 package com.hamitmizrak.lesson2;
 
+import java.util.Random;
+
 public class _13_Loop_Examples {
 
     public static void main(String[] args) {
 
         // Örnek:RASTGELE
-        // 1-10 arasında 5 tane random sayı üretelim ?
+        // 1-9 arasında 5 tane random sayı üretelim ?
+        // Bu sayılar nelerdir? (String.concat)
         // Bu sayıları toplayalım
         // Bu sayılar içinde tek sayı toplamı
         // Bu sayılar içinde tek sayı adeti
+        int oddCounter=0,oddSum=0;
+        String oddPiece="";
+        int sum=0;
+        for (int i = 0; i <=4 ; i++) {
+            Random random=new Random();
+            int temp= random.nextInt(9)+1;
+            if(temp%2==1){
+                oddCounter++;
+                oddSum+=temp;
+                //oddPiece=oddPiece.concat(String.valueOf(temp)+" ");
+                //oddPiece=oddPiece.concat(Integer.toString(temp)+" ");
+                oddPiece=oddPiece.concat(temp+" ");
+            }else{
+
+            }
+            sum+=temp;
+        } //end for
+        System.out.println("Tek sayı elemanları: "+oddPiece);
+        System.out.println("Genel Toplamları: "+sum);
+        System.out.println("Tek sayılar adedi: "+oddCounter);
+        System.out.println("Tek sayılar toplamı: "+oddSum);
 
         // Örnek: AKLINDA BİR SAYI TUT
         // Bir sayi söylüyoruz ve çıkan sonucu tahmin ediyoruz.
