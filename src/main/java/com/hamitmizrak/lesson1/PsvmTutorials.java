@@ -13,7 +13,7 @@ public class PsvmTutorials {
         // interpreter
         // J.I.T nedir ?
         // API nedir ?
-        // API
+        // JVM
         // JRE
         // JDK
     }
