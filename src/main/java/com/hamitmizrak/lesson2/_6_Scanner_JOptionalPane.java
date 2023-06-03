@@ -42,12 +42,10 @@ public class _6_Scanner_JOptionalPane {
         // 0 derece kaç fahranhayttır? (Cevap: 32 fahrenhayttır)
 
 
-
         // 4.soru VKI
         // VKI: Vücut Kitle Indeki hesaplayana algoritma yazınız ?
         // boy=181 CM
         // kilo: 92 KG
         // Erkek/ Bayan için Formül: VKI=kilo/boy*boy
-
     }
 }
