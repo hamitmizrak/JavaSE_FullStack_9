@@ -15,6 +15,9 @@ public class _5_Examples1 {
         // Dereceyi Fahrenhayt
         // (derece*9/5)+32
         // 0 derece kaç fahranhayttır? (Cevap: 32 fahrenhayttır)
+        double celcius=0.0,fahrenhayt=0.0;
+        fahrenhayt=(celcius*9/5)+32;
+        System.out.println(celcius+" derece "+fahrenhayt+" fahrenhayttır");
 
         // 3.soru iki sayıda dört işlem
         // x1=4, x2=2;
