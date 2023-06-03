@@ -30,5 +30,9 @@ public class _12_Loop {
             x++;
         }while(x <= 10);
         System.out.println("Do-While: " + sum3);
+
+        // break: döngüyü durduyor
+        // return : metotu durduruyor
+        // continue:1 kere çalışmıyor sonra devam ediyor.
     }
 }

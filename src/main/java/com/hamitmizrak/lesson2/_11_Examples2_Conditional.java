@@ -1,6 +1,6 @@
 package com.hamitmizrak.lesson2;
 
-public class _11_Examples2 {
+public class _11_Examples2_Conditional {
 
     public static void main(String[] args) {
 
