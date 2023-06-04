@@ -65,8 +65,7 @@ public class _13_Loop_Examples {
         // kullanıcı tarafından girilen bir kelimeyi tersten yazdıran Algoritma ?
         // yazdığınız kelime kaç harfli ?
         // Hamit ==> timaH
-
-        String fullName="", reverseFullName="";
+        /*String fullName="", reverseFullName="";
         Scanner klavye=new Scanner(System.in);
         System.out.println("\nLütfen adınızı giriniz");
         fullName=klavye.nextLine();
@@ -75,12 +74,34 @@ public class _13_Loop_Examples {
             reverseFullName+= fullName.charAt(i);
         }
         System.out.println(fullName);
-        System.out.println(reverseFullName);
+        System.out.println(reverseFullName);*/
 
-        // Örnek : Password Masking
-        // kullanıcı tarafından girilen bir parola için ilk ve son harfi haricinde *
-        // eklensin ?
-        // Hamit ==> H****t
+        // Örnek : Username and surname Masking
+        // kullanıcı tarafından girilen adı ve soyadını için;
+        // adı: ilk harf büyük son harf küçük arada * eklensin.
+        // soyad: ilk 3 harfi Büyük sonra * eklensin
+        // Hamit Mızrak ==> H***T MIZ***
+        String userName,userSurname,fullName;
+        Scanner klavye=new Scanner(System.in);
+        System.out.println("\nLütfen adınızı ve soyadınız giriniz");
+        fullName=klavye.nextLine(); // ad ve soyad
+        userName=fullName.substring(0,fullName.indexOf(" "));
+        userSurname=fullName.substring(fullName.indexOf(" ")+1,fullName.length());
 
+        // userName => process
+        for (int i = 1; i <userName.length()-1; i++) {
+            userName=userName.replace(userName.charAt(i),'*');
+        }
+        userName= userName.toUpperCase();
+
+        // userSurname => Process
+        for (int i = 3; i <userSurname.length(); i++) {
+            userSurname=userSurname.replace(userSurname.charAt(i),'*');
+        }
+        userSurname= userSurname.toUpperCase();
+
+        // Screen
+        fullName=userName.concat(" ").concat(userSurname);
+        System.out.println(fullName);
     }
 }
