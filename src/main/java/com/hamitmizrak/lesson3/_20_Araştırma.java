@@ -2,9 +2,6 @@ package com.hamitmizrak.lesson3;
 
 public class _20_Araştırma {
 
-
-
-
     // ARAŞTIRMA:
     // decoder encoder nedir ?
     // PasswordEncoder ve Bcrypted nedir ?
@@ -56,5 +53,4 @@ public class _20_Araştırma {
     // scrum nedir ?
     // redis nedir ?
     // graphql nedir ?
-
 }
