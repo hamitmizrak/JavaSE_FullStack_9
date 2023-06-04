@@ -2,7 +2,7 @@ package com.hamitmizrak.lesson3;
 
 import java.util.Date;
 
-public class _14_Date {
+public class _14_Date_Get {
     public static void main(String[] args) {
         java.util.Date date=new Date();
         System.out.println(date);
