@@ -1,4 +1,4 @@
-package com.hamitmizrak.lesson3;
+package com.hamitmizrak.lesson4;
 
 import java.util.Arrays;
 
