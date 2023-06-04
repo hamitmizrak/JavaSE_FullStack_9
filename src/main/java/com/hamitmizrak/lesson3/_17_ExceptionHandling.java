@@ -18,6 +18,6 @@ public class _17_ExceptionHandling {
         System.out.println("SON ADIM");
 
         //throw new RuntimeException("Çalışma zamanı hatası olduuuuuuuu");
-        throw new HamitMizrakException("istisna meydana geldi");
+        throw new _17_HamitMizrakException("istisna meydana geldi");
     }
 }
