@@ -2,10 +2,12 @@ package com.hamitmizrak.lesson3;
 
 import java.util.Date;
 
-public class _14_Date_Set {
+public class _15_Date_Set {
     public static void main(String[] args) {
         Date date=new Date();
         System.out.println(date);
+        // date String'e çevir
+        System.out.println(date.toString());
 
         // AY:
         date.setMonth(0);
@@ -30,6 +32,5 @@ public class _14_Date_Set {
         // String Concat
         String fullTime=date.getHours()+":"+date.getMinutes()+":"+date.getSeconds();
         System.out.println("TAM "+fullTime);
-
     }
 }
