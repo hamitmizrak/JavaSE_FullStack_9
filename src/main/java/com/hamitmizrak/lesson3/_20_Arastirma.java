@@ -2,7 +2,7 @@ package com.hamitmizrak.lesson3;
 
 public class _20_Arastirma {
 
-    // ARASTIRMA:
+    // ARAŞTIRMA:
     // decoder encoder nedir ?
     // PasswordEncoder ve Bcrypted nedir ?
     // Katmanlı mimari nedir ?
