@@ -33,10 +33,8 @@ class InnerClassMain{
     public static void main(String[] args) {
         Country country=new Country();
         country.setCountryName("Turkiye");
-
         Country.City city=new Country.City();
         city.setCityName("Adana");
-
         System.out.println(country.getCountryName()+" "+city.getCityName());
     }
 }
