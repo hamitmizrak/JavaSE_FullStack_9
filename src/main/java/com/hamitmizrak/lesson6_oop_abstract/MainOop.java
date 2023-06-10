@@ -1,4 +1,4 @@
-package com.hamitmizrak.lesson5_oop_abstract;
+package com.hamitmizrak.lesson6_oop_abstract;
 
 public class MainOop {
     public static void main(String[] args) {

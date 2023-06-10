@@ -1,4 +1,4 @@
-package com.hamitmizrak.lesson5_oop_abstract;
+package com.hamitmizrak.lesson6_oop_abstract;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
