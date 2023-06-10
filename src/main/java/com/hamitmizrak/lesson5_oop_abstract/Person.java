@@ -1,4 +1,4 @@
-package com.hamitmizrak.lesson5_oop_inheritance;
+package com.hamitmizrak.lesson5_oop_abstract;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,14 +10,16 @@ import java.util.Date;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Person {
+abstract public class Person {
     private Long id;
     private String name;
     private String surname;
-    private Date createdDate=new Date(System.currentTimeMillis());
+    private Date createdDate = new Date(System.currentTimeMillis());
 
     // Method
-    public void fullName(){
+    public void fullName() {
         System.out.println(this.name.concat(" ").concat(this.surname));
     }
+
+    abstract public void govdesizMethod();
 }

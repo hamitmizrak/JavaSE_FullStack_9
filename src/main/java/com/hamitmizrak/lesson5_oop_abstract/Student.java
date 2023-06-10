@@ -1,4 +1,4 @@
-package com.hamitmizrak.lesson5_oop_inheritance;
+package com.hamitmizrak.lesson5_oop_abstract;
 
 import lombok.Data;
 
@@ -7,7 +7,7 @@ import java.util.Date;
 // LOMBOK
 @Data
 
-public class Student extends Person {
+public class Student extends  Person{
     private String specialStudent;
 
     public Student() {
@@ -25,6 +25,11 @@ public class Student extends Person {
     @Override
     public void fullName() {
         System.out.println(" Student Full Name: "+ this.getName()+this.getName());
+    }
+
+    @Override
+    public void govdesizMethod() {
+        System.out.println("Student Gövdesiz Method");
     }
 
     @Override
