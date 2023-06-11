@@ -21,7 +21,7 @@ public class _2_MyFileImplements implements Runnable{
 
     @Override
     public void run() {
-        for (int i = 1; i <=10 ; i++) {
+        for (int i = 1; i <=5 ; i++) {
             System.out.print(i+ " ");
             try {
                 Thread.sleep(1000);
