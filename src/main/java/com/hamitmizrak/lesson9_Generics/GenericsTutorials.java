@@ -1,6 +1,5 @@
 package com.hamitmizrak.lesson9_Generics;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 

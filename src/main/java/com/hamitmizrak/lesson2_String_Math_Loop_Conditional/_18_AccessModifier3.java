@@ -1,0 +1,13 @@
+package com.hamitmizrak.lesson2_String_Math_Loop_Conditional;
+import com.hamitmizrak.lesson3_Date_Method._18_AccessModifier;
+
+public class _18_AccessModifier3 {
+
+    public static void main(String[] args) {
+        _18_AccessModifier instance=new _18_AccessModifier();
+        System.out.println(instance.publicData);
+        //System.out.println(instance.protectedData);
+        //System.out.println(instance.privateData);
+        //System.out.println(instance.defaultData);
+    }
+}
